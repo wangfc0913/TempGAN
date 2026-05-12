@@ -5,6 +5,7 @@
 debug*
 .idea/
 datasets/
+TeVnet/models/
 checkpoints*/
 pretrained_models/
 results/

@@ -17,7 +17,7 @@ class BaseOptions():
         It also gathers additional options defined in <modify_commandline_options> functions in both IRImages class and model class.
         """
         parser.add_argument('--dataroot', required=True, help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
-        parser.add_argument('--batch_size', type=int, default=16, help='input batch size')
+        parser.add_argument('--batch_size', type=int, default=8, help='input batch size')
         parser.add_argument('--load_size', type=int, default=286, help='scale images to this size')
         parser.add_argument('--crop_size', type=int, default=256, help='then crop to this size')
         parser.add_argument('--input_nc', type=int, default=3, help='# of input image channels')
@@ -27,7 +27,7 @@ class BaseOptions():
         parser.add_argument('--name', type=str, default='', help='name of the experiment. It decides where to store samples and models')
         parser.add_argument('--preprocess', type=str, default='resize_and_crop', help='not implemented')
         parser.add_argument('--dataset_mode', type=str, default='ir', help='aligned,single')
-        parser.add_argument('--model', type=str, default='bicycle_gan', help='chooses which model to use. bicycle,, ...')
+        parser.add_argument('--model', type=str, default='temp_gan', help='chooses which model to use. bicycle,, ...')
         parser.add_argument('--direction', type=str, default='AtoB', help='AtoB or BtoA')
         parser.add_argument('--epoch', type=str, default='latest', help='which epoch to load? set to latest to use latest cached model')
         parser.add_argument('--num_threads', default=0, type=int, help='# sthreads for loading data')

@@ -36,3 +36,11 @@
 
 ## Temperature-Guided Infrared Decomposition
 <img src=".\imgs\TG-TeV.png" style="zoom:50%;" />
+
+## Train
+
+```sh
+cd TempGAN
+python train.py --display_id 1 --dataroot ./datasets/MCIR --name temp_gan --model temp_gan --batch_size 8 --conditional_D
+```
+

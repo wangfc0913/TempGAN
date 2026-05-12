@@ -21,7 +21,7 @@ def make_ir_dataset(dataroot, phase):
     assert os.path.isdir(data_dir), '%s is not a valid directory' % data_dir
     dir_ir = os.path.join(data_dir, 'ir')
     dir_label = os.path.join(data_dir, 'label')
-    image_infos = load_json(os.path.join(dataroot, "images_info_shuffle.json"))
+    image_infos = load_json(os.path.join(dataroot, "images_info.json"))
 
     for root, _, fnames in sorted(os.walk(dir_ir)):
         for fname in sorted(fnames):
@@ -29,11 +29,6 @@ def make_ir_dataset(dataroot, phase):
                 path_ir = os.path.join(root, fname)
                 fn, file_extension = os.path.splitext(fname)
                 path_label = os.path.join(dir_label, fn + '_e.png')
-
-                # 方法4
-                # prefix = f'_{random.randint(1, 7)}' + '.jpg'
-                # path_label = os.path.join(dir_label, fn + prefix)
-
                 image_info = image_infos[fname]
                 images.append({'A': path_label, 'B': path_ir, 'info': image_info})
     return images
