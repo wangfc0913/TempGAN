@@ -33,6 +33,7 @@
 
 - The dataset utilized in this study is publicly accessible via the following link: [BaiDuNetdisk](https://pan.baidu.com/s/15hL7sOsA84EmRGT73StKhA?pwd=4y49).
 - The raw video data is available at: [BaiduNetdisk](https://pan.baidu.com/s/1UtEhM0lB9HVbzQr2GifH4w?pwd=jeq1). Additionally, the source code required for data processing and preprocessing can be found in our GitHub repository: [GitHub ](https://github.com/wangfc0913/data_processing_toolset.git).
+If you have any questions, please contact [Fuchao Wang](wfc117@163.com).
 
 ## Temperature-Guided Infrared Decomposition
 <img src=".\imgs\TG-TeV.png" style="zoom:50%;" />
