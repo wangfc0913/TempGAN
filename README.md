@@ -31,8 +31,8 @@
          ---- images_info.json  # metadata
 ```
 
-- The dataset utilized in this study is publicly accessible via the following link: [BaiDuNetdisk](https://pan.baidu.com/s/15hL7sOsA84EmRGT73StKhA?pwd=4y49).
-- The raw video data is available at: [BaiduNetdisk](https://pan.baidu.com/s/1UtEhM0lB9HVbzQr2GifH4w?pwd=jeq1). Additionally, the source code required for data processing and preprocessing can be found in our GitHub repository: [GitHub ](https://github.com/wangfc0913/data_processing_toolset.git).
+- The dataset utilized in this study is publicly accessible via the following link: [BaiDuNetdisk](https://pan.baidu.com/s/15hL7sOsA84EmRGT73StKhA?pwd=4y49) / [MEGA](https://mega.nz/file/MMsCCbLL#BlE_Lq1aDqo4EMGG-6ja9bPN6AeRTgXTf_d-yHYryYo).
+- The raw video data is available at: [BaiduNetdisk](https://pan.baidu.com/s/1UtEhM0lB9HVbzQr2GifH4w?pwd=jeq1) / [MEGA](https://mega.nz/file/UU1BDJ4K#E1Lb2Pr2rR8iiUFeVI_yPmNpQIIOnsJiQ0dT3g9e7NI). Additionally, the source code required for data processing and preprocessing can be found in our GitHub repository: [GitHub ](https://github.com/wangfc0913/data_processing_toolset.git).
 
 If you have any question or suggestion about the dataset, please email to [Wang Fuchao](mailto:2390229@stu.neu.edu.cn).
 
